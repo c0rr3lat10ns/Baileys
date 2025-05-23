@@ -36,7 +36,7 @@
     "prepare": "tsc",
     "preinstall": "node ./engine-requirements.js",
     "release": "release-it",
-    "test": "jest"
+    "test": "jest",
     "start": "node lib/server.js"
   },
   "dependencies": {
