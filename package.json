@@ -37,6 +37,7 @@
     "preinstall": "node ./engine-requirements.js",
     "release": "release-it",
     "test": "jest"
+    "start": "node lib/server.js"
   },
   "dependencies": {
     "@cacheable/node-cache": "^1.4.0",
